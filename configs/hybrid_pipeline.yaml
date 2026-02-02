@@ -1,0 +1,7 @@
+inherit: configs/base.yaml
+
+strategy:
+  name: hybrid
+  num_stages: 2
+  microbatches: 4
+  batch_policy: global_fixed
